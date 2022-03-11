@@ -1,77 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap");
 
-  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+html {
+  font-size: 12pt;
+}
 
-  html { font-size: 12pt; }
+.folha {
+  background-color: #ccc;
+  padding: 0.5em;
+}
+.a4_vertical {
+  width: 793px;
+  height: 1122px;
+}
+.a4_horizontal {
+  width: 1122px;
+  height: 793px;
+}
 
-.folha { background-color: #ccc; padding: 0.5em; }
-.a4_vertical { width: 793px; height: 1122px; }
-.a4_horizontal { width: 1122px; height: 793px; }
-
-
-
-
-    body {
-        font-family: 'Roboto', sans-serif;
-        display: flex;
-        justify-content: center;
-        width: 100vw;
-        background-color: rgb(240, 240, 240);
-
-    }
-    .container {
-        /*width: 800px;
+body {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  background-color: rgb(240, 240, 240);
+}
+.container {
+  /*width: 800px;
         height: 900px;*/
-        background-color: rgb(255, 255, 255);
-        padding: 0;
-        box-shadow: -1px 2px -2px -1px red;
-    }
+  background-color: rgb(255, 255, 255);
+  padding: 0;
+  box-shadow: -1px 2px -2px -1px red;
+}
 
-    .content {
-        padding: 0 4em 4em 4em;
-    }
+.content {
+  padding: 0 4em 4em 4em;
+}
 
-    
-        .gray-title {
-            padding: 1em;
-            background-color: #dedede91;
-        }
-           
+.gray-title {
+  padding: 1em;
+  background-color: #dedede91;
+}
 
-    .fas, .far, .fas-solid {
-        color: rgb(100, 144, 173)
-    }
+.fas,
+.far,
+.fas-solid {
+  color: rgb(100, 144, 173);
+}
 
-    .skills {
-        display: flex;
-        justify-content: space-between;
-    }
+.skills {
+  display: flex;
+  justify-content: space-between;
+}
 
-    header {
-        display: flex;
-        justify-content: space-between;
-        width: 100%;
-        height: 150px;
-        background-color:darkblue;
-        color: #ccc;
-    }
+header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 150px;
+  background-color: darkblue;
+  color: #ccc;
+}
 
-    .left-header {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 15%;
-        border-right: solid thin #171db1;
-    }
+.left-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 15%;
+  border-right: solid thin #171db1;
+}
 
-    .right-header {
-        flex: 1;
-    }
+.right-header {
+  flex: 1;
+}
 
-    .left-header img {
-        height: 70%;
-        border-radius: 50%;
-    }
+.left-header img {
+  height: 70%;
+  border-radius: 50%;
+}
 
-
-
-
+.data-person {
+  display: flex;
+  flex: 1;
+}
