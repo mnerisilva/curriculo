@@ -107,3 +107,29 @@ header {
 .container header {
   background-color: darkblue;
 }
+
+.email,
+.telefone {
+  display: flex;
+  flex-direction: column;
+  padding-left: 15px;
+}
+
+.email span:first-child,
+.telefone span:first-child {
+  font-weight: 600;
+}
+
+.exp-prof {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.exp-prof .right {
+  padding-left: 6em;
+}
+
+.exp-prof .left {
+  width: 100%;
+}
