@@ -66,11 +66,16 @@ header {
   justify-content: center;
   align-items: center;
   width: 15%;
-  border-right: solid thin #171db1;
+  border-right: dotted 2px rgb(93, 24, 202);
+  border-radius: 80%;
 }
 
 .right-header {
   flex: 1;
+}
+
+.left-header {
+  border-radius: 50%;
 }
 
 .left-header img {
@@ -78,7 +83,27 @@ header {
   border-radius: 50%;
 }
 
+.right-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 0 0 10em;
+  background-color: #2b2ba69c;
+}
+
+.right-header h1,
+.right-header h2,
+.right-header h3,
+.right-header h4 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 .data-person {
   display: flex;
   flex: 1;
+}
+
+.container header {
+  background-color: darkblue;
 }
