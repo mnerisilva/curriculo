@@ -50,6 +50,7 @@ body {
 .skills {
   display: flex;
   justify-content: space-between;
+  border-bottom: solid thin #dedede47;
 }
 
 header {
@@ -122,14 +123,14 @@ header {
 
 .exp-prof {
   display: flex;
-  justify-content: space-between;
   align-items: baseline;
 }
 
 .exp-prof .right {
+  flex: 1;
   padding-left: 6em;
 }
 
 .exp-prof .left {
-  width: 100%;
+  width: 17%;
 }
