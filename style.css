@@ -58,7 +58,7 @@ header {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  height: 150px;
+  height: 200px;
   background-color: darkblue;
   color: #ccc;
 }
@@ -83,6 +83,7 @@ header {
 .left-header img {
   height: 70%;
   border-radius: 50%;
+  margin-left: 50px;
 }
 
 .right-header {
@@ -91,7 +92,7 @@ header {
   justify-content: center;
   padding: 0 0 0 10em;
   background-color: #3232829c;
-  border-left: solid #01419f;
+  /*border-left: solid #01419f;*/
 }
 
 .right-header h1,
@@ -154,4 +155,16 @@ header {
 .function {
   margin-top: 5px;
   margin-bottom: 5px;
+}
+
+header h1, header h3 {
+    color: #fff;
+}
+
+.gray-title .function, .right .function {
+    margin-bottom: 0;
+}
+
+.exp-prof .left {
+    font-size: .8em;
 }
