@@ -90,9 +90,11 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 0 0 0 10em;
   background-color: #3232829c;
-  /*border-left: solid #01419f;*/
+}
+
+.right-header h1, .right-header h3 {
+  text-align: center;
 }
 
 .right-header h1,
